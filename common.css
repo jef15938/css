@@ -1763,5 +1763,36 @@ dd {
 }
 
 /* B208 基金休市公告 search */
+#SysJustIFRAMEDIV form[name="sch"] {
+  margin-top: 24px !important;
+}
+
+#SysJustIFRAMEDIV form[name="sch"] > .form-group input[type="text"] {
+  height: 48px;
+  width: 134px;
+  border-radius: 6px;
+  margin-right: 8px;
+}
+
+@media (max-width: 767px) {
+  #SysJustIFRAMEDIV form[name="sch"] > .form-group input[type="text"] {
+    width: 100%;
+  }
+}
+
+#SysJustIFRAMEDIV input[type="button"][value="GO"] {
+  background: linear-gradient(135deg, #008680 0%, #00726A 100%);
+  box-shadow: 0px 5px 15px rgb(0 0 0 / 10%);
+  border-radius: 6px;
+  padding: 11px 10px;
+  font-size: 16px;
+  width: 106px;
+}
+
+
+#SysJustIFRAMEDIV form[name="sch"] > .form-group label.control-label {
+  color: #666666;
+  margin-right: 8px;
+}
 
 
